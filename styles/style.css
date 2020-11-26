@@ -8,6 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   border: 1px solid #f00;
+  color: #000;
 }
 
 .header {
@@ -89,6 +90,11 @@
 .two-columns__brief {
   width: 175px;
   margin: 0;
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .two-columns__main-text {
@@ -99,10 +105,17 @@
 .two-columns__paragraph {
   margin: 0;
   margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
 }
 
 div, p, h2 {
