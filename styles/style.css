@@ -7,8 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  border: 1px solid #f00;
 }
 
 .header {
@@ -16,8 +15,6 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  margin: 0 auto;
-  padding: 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -40,6 +37,9 @@
   width: 730px;
   margin-left: 64px;
   z-index: 1;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
 }
 
 .header__subtitle {
@@ -48,6 +48,9 @@
   bottom: 30px;
   left: 64px;
   z-index: 1;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__main-illustration {
