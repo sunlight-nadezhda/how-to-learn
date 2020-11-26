@@ -7,6 +7,8 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -14,6 +16,20 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_header {
+  background-image: url('../images/logo_place_header.svg');
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
