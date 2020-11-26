@@ -16,8 +16,12 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f00;
 }
 
 .logo {
@@ -32,10 +36,37 @@
   left: 64px;
 }
 
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  z-index: 1;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
