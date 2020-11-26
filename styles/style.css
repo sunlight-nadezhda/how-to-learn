@@ -35,6 +35,7 @@
 
 .header__title {
   width: 730px;
+  margin: 0;
   margin-left: 64px;
   z-index: 1;
   line-height: 96px;
@@ -44,6 +45,7 @@
 
 .header__subtitle {
   width: 388px;
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -70,6 +72,41 @@
   top: 64px;
   right: 0;
   z-index: -1;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  width: 80%;
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+div, p, h2 {
+  border: 1px solid #00f;
 }
 
 /* и элемента с модификатором вида ключ-значение */
