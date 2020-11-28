@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  /* border: 1px solid #f00; */
   color: #000;
 }
 
@@ -281,6 +280,7 @@
   width: 877px;
   height: 877px;
   background-image: url('../images/kaufman-triangle.svg');
+  background-size: 877px 877px;
   position: absolute;
   top: 0;
   right: -210px;
@@ -352,6 +352,7 @@
   height: 16px;
   margin-right: 10px;
   display: inline-block;
+  background-repeat: no-repeat;
 }
 
 .footer__social-icon_name_facebook {
