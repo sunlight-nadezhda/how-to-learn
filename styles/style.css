@@ -25,8 +25,6 @@
 .logo {
   width: 183px;
   height: 32px;
-  display: inline-block;
-  background-repeat: no-repeat;
   text-decoration: none;
 }
 
@@ -35,7 +33,6 @@
 }
 
 .logo_place_header {
-  background-image: url('../images/logo_place_header.svg');
   position: absolute;
   top: 30px;
   left: 64px;
@@ -136,11 +133,14 @@
 
 .digits {
   padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-title {
   width: 60%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -149,7 +149,7 @@
 
 .section-subtitle {
   width: 60%;
-  margin: 0 auto;
+  margin: 0;
   margin-top: 20px;
   text-align: center;
   line-height: 34px;
@@ -160,7 +160,7 @@
 .table {
   width: 1100px;
   list-style: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -200,11 +200,14 @@
   background-repeat: no-repeat;
   background-size: 867px 637px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feynman__title {
   width: 648px;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -212,7 +215,7 @@
 }
 
 .feynman__subtitle {
-  margin: 0 auto;
+  margin: 0;
   margin-top: 70px;
   text-align: center;
   line-height: 51px;
@@ -242,6 +245,9 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -285,7 +291,6 @@
 
 .logo_place_footer {
   height: 35px;
-  background-image: url('../images/logo_place_footer.svg');
 }
 
 .footer__author {
@@ -325,18 +330,4 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  display: inline-block;
-  background-repeat: no-repeat;
-}
-
-.footer__social-icon_name_facebook {
-  background-image: url('../images/facebook_color_white.svg');
-}
-
-.footer__social-icon_name_vk {
-  background-image: url('../images/vk_color_white.svg');
-}
-
-.footer__social-icon_name_instagram {
-  background-image: url('../images/instagram_color_white.svg');
 }
